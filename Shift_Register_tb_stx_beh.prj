@@ -1,0 +1,3 @@
+vhdl isim_temp "D_flipflop.vhd"
+vhdl isim_temp "Shift_Register.vhd"
+vhdl isim_temp "Shift_Register_tb.vhd"

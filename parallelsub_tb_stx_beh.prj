@@ -1,0 +1,4 @@
+vhdl isim_temp "notgate.vhd"
+vhdl isim_temp "fulladder.vhd"
+vhdl isim_temp "parallelsub.vhd"
+vhdl isim_temp "parallelsub_tb.vhd"

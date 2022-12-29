@@ -1,0 +1,3 @@
+vhdl isim_temp "full_adder_p.vhd"
+vhdl isim_temp "parallel_ad.vhd"
+vhdl isim_temp "para_ad_tb.vhd"
