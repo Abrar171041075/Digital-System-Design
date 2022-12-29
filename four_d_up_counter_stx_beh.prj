@@ -1,0 +1,2 @@
+vhdl isim_temp "d_ff.vhd"
+vhdl isim_temp "four_d_up_counter.vhd"

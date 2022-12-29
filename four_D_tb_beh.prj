@@ -1,0 +1,3 @@
+vhdl work "d_ff.vhd"
+vhdl work "four_d_up_counter.vhd"
+vhdl work "four_D_tb.vhd"

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/.Xilinx/lab1/half_add.xst" -ofn "C:/.Xilinx/lab1/half_add.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 half_add.ngc half_add.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o half_add_map.ncd half_add.ngd half_add.pcf 
+par -w -intstyle ise -ol high -mt off half_add_map.ncd half_add.ncd half_add.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml half_add.twx half_add.ncd -o half_add.twr half_add.pcf 

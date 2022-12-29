@@ -1,0 +1,8 @@
+[Inputs]
+x
+y
+c_in
+[Outputs]
+c_out
+s
+[BiDir]

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work full_adder_p.vhd -prj lab1 -o full_adder_p.spl -module full_adder_p -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 full_adder_p.spl C:/.Xilinx/lab1/full_adder_p.sym 
+vhdtdtfi -prj lab1 -o C:/.Xilinx/lab1/full_adder_p.tfi -module full_adder_p -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work full_adder_p.vhd 
+vhdtdtfi -prj lab1 -o C:/.Xilinx/lab1/full_adder_p.tfi -module full_adder_p -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work full_adder_p.vhd 

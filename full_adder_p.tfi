@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+full_adder_p instance_name (
+    .x(x), 
+    .y(y), 
+    .c_in(c_in), 
+    .c_out(c_out), 
+    .s(s)
+    );
+
+

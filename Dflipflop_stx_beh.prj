@@ -1,0 +1,4 @@
+vhdl isim_temp "d_ff.vhd"
+vhdl isim_temp "four_d_up_counter.vhd"
+vhdl isim_temp "four_D_tb.vhd"
+vhdl isim_temp "Dflipflop.vhd"

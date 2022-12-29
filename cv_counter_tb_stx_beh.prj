@@ -1,0 +1,3 @@
+vhdl isim_temp "tflipflop.vhd"
+vhdl isim_temp "cv_counter.vhd"
+vhdl isim_temp "cv_counter_tb.vhd"

@@ -1,0 +1,2 @@
+vhdl isim_temp "four_bit_up_counter.vhd"
+vhdl isim_temp "fou_bitUP_tb.vhd"
